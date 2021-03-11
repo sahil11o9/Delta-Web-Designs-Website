@@ -1,0 +1,183 @@
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;   /* Shortcut for all three */
+    background: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global */
+.btn1{
+    background: #e8491d;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    border-radius: 2rem;
+}
+.dark1{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 61rem;
+}
+.dark2{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding: 0px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+.branding{
+    display: inline-flex;    
+}
+
+.branding h1{
+    display: inline;
+    padding-left: 2.299rem;
+}
+nav{
+    display: inline-flex;
+    padding-top: 1.88rem;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 42rem;
+}
+
+header li{
+    display: inline-flex;
+    padding: 0 20px ;
+}      
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+header li a:hover{
+    color: #cccccc;
+}
+.highlight,
+header li a.active{
+    color: #e8491d ;
+
+}
+
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url('https://source.unsplash.com/2000x1200/?coding,laptop') no-repeat 0 -600px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container2 h1{
+    padding-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    /* margin-block-start: 0; */
+    margin-block-end: 0;
+}
+
+.container2 p{
+    font-size: 20px;
+}
+
+
+/* Newsletter */
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: #35424a;
+    border-bottom: #e8491d 3px solid;
+}
+
+.container3{
+    display: inline-flex;
+}
+
+.container3 h1{
+    margin-top: .2rem;
+}
+
+form{
+    display: inline-flex;
+}
+
+form input[type="email"]{
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+}
+
+.container3 form{
+    padding-left: 44rem;
+}
+
+
+/* About Page */
+.dabba{
+    /* border: 2px solid black; */
+}
+#box1{
+    float: left;
+    width: 65%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#box2{
+    padding-right: 5%;
+    padding-top: .35%;
+    /* margin: 0; */
+}
+
+
+
+
+aside {
+    display: inline;
+    box-sizing: content-box;
+}
+aside #sidebar{
+    width: 30%;
+    /* padding-left: 55rem; */
+}
+aside #sidebar h3{
+    float: right;
+    padding-top: 2rem;
+}
+
+
+/* Footer */
+footer{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+    padding-left: 29.9rem;
+    padding-right: 29.9rem;
+}
